@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from "prop-types"
 import Link from 'gatsby-link'
 import { BasePage } from "../partials";
-import {Starfield} from 'starfield-react'
+import {Starfield} from "starfield-react";
 
 import noImg from "../assets/images/no-img.jpg";
 
@@ -90,9 +90,21 @@ export default class Index extends Component {
             <Starfield width={this.state.starfieldWidth} height={this.state.starfieldHeight} />
           </div>
         </section>
-        <article  >
-
-        </article>
+        <section className="featured courses" >
+          <h1>Featured Courses</h1>
+        </section>
+        <section className="featured workshops">
+        
+        </section>
+        <section className="upcoming courses">
+        
+        </section>
+        <section className="upcoming workshops">
+        
+        </section>
+        <section className="feedback">
+            {/* Testinomials */}
+        </section>
       </BasePage>
     )
   }

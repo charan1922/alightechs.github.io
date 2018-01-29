@@ -874,7 +874,7 @@ main>article:first-child:not(.site-menu), main>section:first-child:not(.site-men
 }
 
 .mast__col:first-child, .mast__subtitle:first-child, .mast__title:first-child {
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .mast--home .mast__title {
@@ -984,4 +984,10 @@ main>article:first-child:not(.site-menu), main>section:first-child:not(.site-men
   -webkit-backface-visibility: hidden;
 }
 
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 @import 'partials/header.scss';
+@import 'pages/courses.scss';

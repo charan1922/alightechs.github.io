@@ -1,0 +1,107 @@
+.about-container {
+  padding-top: 100px;
+  background: url("https://www.maynoothuniversity.ie/sites/default/files/assets/images/Law---Brian-Flanagan-Lecture-1120---Maynooth-University.jpg");
+background: -webkit-linear-gradient(300deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+
+width: 100%;
+  background-size: cover;
+}
+
+.aboutHeader {
+  //   margin-top: 40px;
+  position: relative;
+  //   padding-bottom: 20px;
+  background-position: 0 -70px;
+
+  display: flex;
+  padding: 15% 0;
+}
+
+.innerWrapper {
+  //   display: inline;
+  float: left;
+  //   width: 93.05556%;
+  //   margin: 0 3.47222%;
+  color: #dfd0d0;
+  margin: auto;
+  // text-align: center;
+  width: 50%;
+}
+
+.innerWrapper h1 {
+  margin-bottom: 20px;
+  font-size: 4.66667rem;
+  line-height: 4.66667rem;
+}
+
+.innerWrapper p {
+  font-size: 1.66667rem;
+  line-height: 2rem;
+  font-family: "NimbusSans-SemiBold", sans-serif;
+}
+
+
+
+//content
+.aboutSummary{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5% 0;
+
+}
+
+.aboutHY{
+    text-align: center;
+    flex:1;
+    padding: 5% 0 ;
+}
+
+.whyHY{
+    text-align: center;
+    flex:1;
+    padding: 5% 0 ;
+
+}
+
+.whyHY li{
+    list-style: none;
+}
+
+
+
+
+// Our Team Section
+
+.innerWrapper1 {
+  display: inline;
+  float: left;
+  width: 93.05556%;
+  margin: 0 3.47222%;
+}
+
+.teamHeader {
+  margin: 10px 0 50px;
+}
+
+h2 {
+  font-family: "NimbusSans-SemiBold", sans-serif;
+  color: #231f20;
+  margin: 1.15rem 0;
+  display: block;
+  font-weight: bold;
+}
+
+.teamWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5% 0;
+}
+
+.teamMember {
+  text-align: center;
+  flex: 1;
+  padding: 5% 0;
+}
+
+
